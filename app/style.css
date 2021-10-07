@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  padding-top: 100px;
+}
+
+.title {
+  min-width: 360px;
+  display: flex;
+  justify-content: center;
+  background-color: plum;
+}
+
+.chatroom {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: pink;
+  min-width: 360px;
+  min-height: 540px;
+  list-style: none;
+  padding: 25px;
+  padding-top: 10px;
+}
+
+.my-msg {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.your-msg {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  background-color: whitesmoke;
+  font-size: large;
+  padding: 5px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: small;
+  padding: 5px;
+}
+
+.input {
+  min-width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: plum;
+}
+
+.inputbox {
+  min-width: 300px;
+}
